@@ -57,6 +57,7 @@ h1 {
 
 .pagination span {
   padding: 10px;
+max-width: 100%;
   font-size: 22;
   border: 1px solid black;
   cursor: pointer;
@@ -93,5 +94,11 @@ h1 {
 
   .main {
     padding: 8px;
+  }
+  .pagination span {
+    padding: 6px;
+    font-size: 18;
+    border: 1px solid black;
+    cursor: pointer;
   }
 }
