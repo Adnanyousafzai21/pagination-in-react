@@ -45,8 +45,8 @@ font-size: 25px;
 }
 .pagination {
   text-align: center;
-  margin: 10px;
-  padding: 20px;
+  margin: 10px auto;
+  padding: 20px auto;
 }
 .pagination span{
   padding: 10px;
