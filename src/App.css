@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-*{
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -13,21 +13,23 @@
   flex-wrap: wrap;
   justify-content: space-between;
   /* overflow-x: hidden; */
-  
+
 
 }
-.price{
+
+.price {
   display: flex;
   justify-content: space-around;
   color: white;
 }
 
-h1{
-text-align: center;
-color:#236065 ;
-padding: 5px auto;
-font-size: 25px;
+h1 {
+  text-align: center;
+  color: #236065;
+  padding: 5px auto;
+  font-size: 25px;
 }
+
 .cart {
   width: 22%;
   background-color: #236065;
@@ -36,27 +38,33 @@ font-size: 25px;
   border-radius: 7px;
   margin: 15px auto;
 }
-.pagehide{
+
+.pagehide {
   display: none;
 }
-.selectedpage{
+
+.selectedpage {
   background-color: #236065;
-  color:white
+  color: white
 }
+
 .pagination {
   text-align: center;
-  margin: 10px auto;
-  padding: 20px auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 95%;
 }
-.pagination span{
+
+.pagination span {
   padding: 10px;
   font-size: 22;
   border: 1px solid black;
   cursor: pointer;
 }
-.cart .title{
+
+.cart .title {
   text-align: center;
-  padding: 10px ;
+  padding: 10px;
   color: white;
 }
 
@@ -77,11 +85,13 @@ font-size: 25px;
     width: 45%;
   }
 }
+
 @media screen and (max-width: 500px) {
   .cart {
     width: 100%;
   }
-  .main{
-    padding:  8px;
+
+  .main {
+    padding: 8px;
   }
 }
